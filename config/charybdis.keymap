@@ -155,8 +155,8 @@
         mouse {
             label = "HOTKEY";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_UP      &msc SCRL_UP    &trans     &mkp MCLK  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_DOWN    &msc SCRL_DOWN  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_UP      &msc SCRL_UP    &trans     &trans     &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans     &kp C_VOLUME_DOWN    &msc SCRL_DOWN  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &kp C_MUTE           &trans          &trans     &trans     &trans  &trans  &trans
                         &mkp RCLK  &mkp LCLK  &mkp MCLK            &mkp RCLK       &mkp LCLK
             >;
