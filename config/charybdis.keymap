@@ -14,7 +14,9 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <&zip_xy_scaler 1 2>, <&zip_temp_layer 4 400>;
- // Switch to auto-mouse temp layer, decrease sensitivity
+
+        // Switch to auto-mouse temp layer, decrease sensitivity
+
         scroll {
             layers = <5>; // SCROLL
             input-processors =
@@ -133,9 +135,9 @@
         number_layer {
             label = "NUMBER";
             bindings = <
-&trans  &kp AT           &kp N7  &kp N8  &kp N9  &kp EQUAL    &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans    &trans
-&trans  &kp EXCLAMATION  &kp N4  &kp N5  &kp N6  &kp PLUS     &kp END     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp HOME  &trans
-&trans  &kp N0           &kp N1  &kp N2  &kp N3  &kp DOT      &email      &trans          &trans          &trans           &trans    &trans
+&trans  &kp AT           &kp N7  &kp N8  &kp N9  &kp EQUAL    &kp DOLLAR  &euro           &kp UP_ARROW    &trans           &trans   &trans
+&trans  &kp EXCLAMATION  &kp N4  &kp N5  &kp N6  &kp PLUS     &kp HOME    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans
+&trans  &kp N0           &kp N1  &kp N2  &kp N3  &kp DOT      &email      &trans          &trans          &trans           &trans   &trans
                                  &trans  &trans  &trans       &trans      &trans
             >;
         };
