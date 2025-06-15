@@ -36,13 +36,6 @@
             layers = <1 2 2 3 0 4>;
         };
 
-        crop {
-            timeout-ms = <50>;
-            key-positions = <2 3 4>; // KP: FG
-            bindings = <&kp RG(LS(N5))>;
-            layers = <1 2 2 3 0 4>;
-        };
-
         parentL {
             timeout-ms = <50>;
             key-positions = <9 8>;
@@ -70,6 +63,11 @@
         rclick {
             bindings = <&mkp RCLK>;
             key-positions = <16 36>;
+        };
+
+        middleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <38 16>;
         };
     };
 
