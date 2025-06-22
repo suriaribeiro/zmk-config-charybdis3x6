@@ -171,32 +171,32 @@
 
         rclick-r {
             bindings = <&mkp RCLK>;
-            key-positions = <32 33>;
+            key-positions = <20 21>;
         };
 
         mClick-r {
             bindings = <&mkp MCLK>;
-            key-positions = <31 32 33>;
+            key-positions = <19 20 21>;
         };
 
         lClick-r {
             bindings = <&mkp LCLK>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
         };
 
         lClick-l {
             bindings = <&mkp LCLK>;
-            key-positions = <27 28>;
+            key-positions = <15 16>;
         };
 
         rClick-l {
             bindings = <&mkp RCLK>;
-            key-positions = <27 26>;
+            key-positions = <14 15>;
         };
 
         mClick-l {
             bindings = <&mkp MCLK>;
-            key-positions = <27 28 26>;
+            key-positions = <14 15 16>;
         };
     };
 
@@ -222,10 +222,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 3 ESC          &kp Q    &kp W                &kp E             &kp R                  &kp T                  &kp Y            &kp U                    &kp I              &kp O       &kp P          &kp BACKSPACE
-&hm_left LCMD TAB  &lt 3 A  &hm_left LEFT_ALT S  &hm_left LCTRL D  &hm_left LEFT_SHIFT F  &kp G                  &kp H            &hm_right RIGHT_SHIFT J  &hm_right RCTRL K  &lt 3 L     &kp SEMICOLON  &kp SQT
-&kp LSHFT          &kp Z    &kp X                &kp C             &kp V                  &kp B                  &kp N            &kp M                    &lt 3 COMMA        &kp PERIOD  &kp SLASH      &kp RSHFT
-                                                 &kp LCTRL         &rht 1 SPACE           &lt 2 RIGHT_COMMAND    &lt 2 BACKSPACE  &lt 1 ENTER
+&lt 3 ESC          &kp Q    &kp W                &kp E             &kp R         &kp T                  &kp Y            &kp U        &kp I              &kp O       &kp P          &kp BACKSPACE
+&hm_left LCMD TAB  &lt 3 A  &hm_left LEFT_ALT S  &hm_left LCTRL D  &kp F         &kp G                  &kp H            &kp J        &hm_right RCTRL K  &lt 3 L     &kp SEMICOLON  &kp SQT
+&kp LSHFT          &kp Z    &kp X                &kp C             &kp V         &kp B                  &kp N            &kp M        &lt 3 COMMA        &kp PERIOD  &kp SLASH      &kp RSHFT
+                                                 &kp LCTRL         &rht 1 SPACE  &lt 2 RIGHT_COMMAND    &lt 2 BACKSPACE  &lt 1 ENTER
             >;
         };
 
