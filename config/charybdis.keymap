@@ -181,12 +181,17 @@
 
         rclick {
             bindings = <&mkp RCLK>;
-            key-positions = <16 36>;
+            key-positions = <32 33>;
         };
 
         middleClick {
             bindings = <&mkp MCLK>;
-            key-positions = <38 16>;
+            key-positions = <31 32 33>;
+        };
+
+        leftClick {
+            bindings = <&mkp LCLK>;
+            key-positions = <31 32>;
         };
     };
 
