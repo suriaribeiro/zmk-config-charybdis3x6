@@ -169,17 +169,17 @@
             layers = <1 2 2 3 0 4>;
         };
 
-        rclick-l {
+        rclick-r {
             bindings = <&mkp RCLK>;
             key-positions = <32 33>;
         };
 
-        mClick-l {
+        mClick-r {
             bindings = <&mkp MCLK>;
             key-positions = <31 32 33>;
         };
 
-        lClick-l {
+        lClick-r {
             bindings = <&mkp LCLK>;
             key-positions = <31 32>;
         };
@@ -189,12 +189,12 @@
             key-positions = <27 28>;
         };
 
-        rClick-r {
+        rClick-l {
             bindings = <&mkp RCLK>;
             key-positions = <27 26>;
         };
 
-        mClick-r {
+        mClick-l {
             bindings = <&mkp MCLK>;
             key-positions = <27 28 26>;
         };
