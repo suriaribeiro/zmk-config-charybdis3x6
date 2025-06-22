@@ -106,7 +106,6 @@
             bindings = <&mo 6>, <&to 0>;
         };
 
-    behaviors {
         rht: repeatHoldTap {
             compatible = "zmk,behavior-hold-tap";
             label = "REPEATHOLDTAP";
