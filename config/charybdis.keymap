@@ -1,11 +1,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <behaviors.dtsi>
 
 #define DEFAULT 0
 #define NUMBER  1
@@ -155,48 +155,26 @@
             layers = <1 2 2 3 0 4>;
         };
 
-        parentL {
+        parentR {
             timeout-ms = <50>;
             key-positions = <9 8>;
             bindings = <&kp RPAR>;
             layers = <0 1 4 3 2>;
         };
 
-        parentR {
-            timeout-ms = <50>;
-            key-positions = <7 8>; // KP: RT
-            bindings = <&kp LEFT_PARENTHESIS>;
-            layers = <1 2 2 3 0 4>;
-        };
-
-        rclick-r {
-            bindings = <&mkp RCLK>;
-            key-positions = <20 21>;
-        };
-
-        mClick-r {
-            bindings = <&mkp MCLK>;
-            key-positions = <19 20 21>;
-        };
-
-        lClick-r {
-            bindings = <&mkp LCLK>;
-            key-positions = <19 20>;
-        };
-
         lClick-l {
             bindings = <&mkp LCLK>;
-            key-positions = <15 16>;
+            key-positions = <16 37>;
         };
 
         rClick-l {
             bindings = <&mkp RCLK>;
-            key-positions = <14 15>;
+            key-positions = <15 16 37>;
         };
 
-        mClick-l {
-            bindings = <&mkp MCLK>;
-            key-positions = <14 15 16>;
+        parentL {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
         };
     };
 
