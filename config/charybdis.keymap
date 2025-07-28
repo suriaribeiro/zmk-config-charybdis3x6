@@ -123,26 +123,6 @@
             bindings = <&mo 6>, <&to 0>;
         };
 
-        //td_grave: DoubleTap_Grave {
-        //    compatible = "zmk,behavior-tap-dance";
-        //    #binding-cells = <0>;
-        //    bindings = <&kp GRAVE>, <&grave_macro>;
-        //};
-        //td_hyphen: DoubleTap_Hyphen {
-        //    compatible = "zmk,behavior-tap-dance";
-        //    #binding-cells = <0>;
-        //    bindings = <&kp MINUS>, <&minus_macro>;
-        //};
-        //td_equals: DoubleTap_Equals {
-        //    compatible = "zmk,behavior-tap-dance";
-        //    #binding-cells = <0>;
-        //    bindings = <&kp EQUAL>, <&equals_macro>;
-        //};
-        //td_home: DoubleTap_Home {
-        //    compatible = "zmk,behavior-tap-dance";
-        //   #binding-cells = <0>;
-        //    bindings = <&kp FSLH>, <&home_macro>;
-        //};
     };
 
     combos {
@@ -201,9 +181,9 @@
             label = "DEFAULT";
             bindings = <
 &lt 3 ESC          &kp Q    &kp W                &kp E             &kp R         &kp T                  &kp Y            &kp U        &kp I              &kp O       &kp P          &kp BACKSPACE
-&hm_left LCMD TAB  &lt 3 A  &hm_left LEFT_ALT S  &hm_left LCTRL D  &kp F         &kp G                  &kp H            &kp J        &hm_right RCTRL K  &lt 3 L     &kp SEMICOLON  &kp SQT
+&hm_left LCMD TAB  &lt 3 A  &hm_left LEFT_ALT S  &kp D             &kp F         &kp G                  &kp H            &kp J        &kp K              &lt 3 L     &kp SEMICOLON  &kp SQT
 &kp LSHFT          &kp Z    &kp X                &kp C             &kp V         &kp B                  &kp N            &kp M        &lt 3 COMMA        &kp PERIOD  &kp SLASH      &kp RSHFT
-                                                 &kp LCTRL         &rht 1 SPACE  &lt 2 RIGHT_COMMAND    &lt 2 BACKSPACE  &lt 1 ENTER
+                                                 &kp LCTRL         &lt 1 SPACE  &lt 2 RIGHT_COMMAND    &lt 2 BACKSPACE  &lt 1 ENTER
             >;
         };
 
